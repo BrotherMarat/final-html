@@ -1,0 +1,192 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Lato";
+    color: rgb(43, 39, 39);
+    font-size: 1rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a {
+    color: rgb(58, 52, 52);
+    font-size: 1.3rem;
+}
+
+h1 {
+    font-size: 3.5rem;
+    font-weight: bold;
+    line-height: 4rem;
+}
+
+h3 {
+    font-size: 1.7rem;
+    line-height: 3rem;
+}
+
+h2 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+p {
+    line-height: 2.5rem;
+}
+
+div {
+    display: block;
+}
+
+/* Header section */
+
+header {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    background-color: white;
+    z-index: 10;
+    height: 4rem;
+    padding: 0 1.5rem;
+    z-index: 10;
+}
+
+#coolmar {
+    font-weight: 700;
+}
+
+#academy {
+    color: grey;
+}
+
+header img {
+    height: 100%;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+}
+
+.header-left h2 {
+    font-size: 1rem;
+}
+
+header img {
+    height: 2rem;
+}
+
+header li {
+    margin-left: 1rem;
+    display: inline-block;
+}
+
+header a {
+    font-size: 1rem;
+}
+
+
+/* Under header section */
+
+.container {
+    margin-top: 4rem;
+    padding: 2rem 1.5rem;
+    background-color: rgb(214, 212, 212);
+    display: inline-flex;
+    align-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.left-side img {
+    width: 100%;
+    height: auto;
+}
+
+.left-side {
+    display: inline-block;
+    width: 60%;
+    padding-right: 1.5rem;
+}
+
+.right-side {
+    width: 30%;
+    display: inline-block;
+}
+
+#start {
+    font-size: 2rem;
+    background-color: rgb(58, 52, 52);
+    color: rgb(238, 229, 229);
+    padding: .5rem 0;
+    text-align: center;
+}
+
+/* About */
+
+.container-about {
+    padding: 0 1.5rem;
+    padding-bottom: 2rem;
+    display: inline-flex;
+    align-content: center;
+    width: 100%;
+}
+
+.left-about {
+    padding-right: 1.5rem;
+    border-right: rgb(214, 212, 212) 1px solid;
+    padding-top: 2rem;
+}
+
+
+.right-side-about {
+    width: 40%;
+    padding-top: 1rem;
+}
+
+.text-about {
+    width: 65%;
+}
+
+.info-blocks {
+    display: inline-flex;
+    align-content: center;
+    align-items: center;
+}
+
+.img-about {
+    padding: 1rem;
+    width: 35%;
+    height: auto;
+}
+
+.img-about img {
+    width: 100%;
+    height: auto;
+}
+
+.container-about h2 {
+    padding-top: 2rem;
+    padding-bottom: 1.5rem;
+}
+
+#emanuel {
+    padding-top: 2rem;
+}
+
+.leckture {
+    background-color: rgb(214, 212, 212);
+}
+
+.text-about a {
+    line-height: 2.5rem;
+    color: rgb(121, 153, 214);
+}
