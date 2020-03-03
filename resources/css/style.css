@@ -117,6 +117,11 @@ header a {
     padding-right: 1.5rem;
 }
 
+.left-side p, 
+.left-side h3 {
+    padding-left: 0;
+}
+
 .right-side {
     width: 30%;
     display: inline-block;
@@ -138,6 +143,7 @@ header a {
     display: inline-flex;
     align-content: center;
     width: 100%;
+    background-color: whitesmoke;
 }
 
 .left-about {
@@ -160,6 +166,7 @@ header a {
     display: inline-flex;
     align-content: center;
     align-items: center;
+    border-bottom: 0.1rem solid rgb(214, 212, 212);
 }
 
 .img-about {
@@ -189,4 +196,89 @@ header a {
 .text-about a {
     line-height: 2.5rem;
     color: rgb(121, 153, 214);
+}
+
+/* Learning */
+
+.learning {
+    padding: 2rem 2.5rem 0 2.5rem;
+    background-color: rgb(214, 212, 212);
+}
+
+.learning h2, h3, p {
+    padding: .25rem 1rem .25rem 1rem;
+}
+
+.learning h2 {
+    text-align: center;
+}
+
+.learning h3 {
+    font-size: 1.7rem;
+}
+
+.learning p {
+    color: gray;
+    font-weight: 300;
+}
+
+.boxes {
+    display: flex;
+    width: 100%;
+}
+
+.box {
+    margin: 2rem;
+    background-color: white;
+    flex-shrink: 1;
+    max-width: 33.25rem;
+    padding-bottom: 1.25rem;
+}
+
+.box img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    padding-bottom: .75rem;
+}
+
+/* Thesis exhibit */
+
+.thesis h2 {
+    text-align: center;
+    background-color: whitesmoke;
+    padding-top: 2rem;
+}
+
+.left-side video {
+    width: 100%;
+    padding-bottom: 1.25rem;
+}
+
+.thesis .left-side, .thesis .info-blocks {
+    border: none;
+}
+
+.thesis .leckture {
+    margin-top: 1rem;
+}
+
+/* Footer */
+
+footer {
+    border-top: solid rgb(214, 212, 212);
+    background-color: whitesmoke;
+    padding: 1rem 1.5rem 3rem 1.5rem;
+}
+
+footer a {
+    float: right;
+}
+
+footer p {
+    padding: 0;
+}
+
+footer a {
+    margin-left: .7rem;
 }
