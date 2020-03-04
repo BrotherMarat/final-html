@@ -93,6 +93,44 @@ header a {
     font-size: 1rem;
 }
 
+/* Mobile */
+
+@media only screen and (max-width: 740px) {
+    .header-left h2, header li {
+        display: none;
+    }
+}
+
+.header-left img{
+    display: inline-flex;
+    justify-content: space-around;
+}
+
+@media only screen and (min-width: 740px) {
+    .header-left img {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 740px) {
+    #logo {
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 740px) {
+    .header-left {
+        width: 100%;
+        justify-content: space-around;
+    }
+}
+
+@media only screen and (max-width: 740px) {
+    header {
+        padding: 0;
+    }
+}
+
 
 /* Under header section */
 
@@ -133,6 +171,41 @@ header a {
     color: rgb(238, 229, 229);
     padding: .5rem 0;
     text-align: center;
+}
+
+@media only screen and (max-width: 740px) {
+    .container {
+        flex-direction: column;
+        padding: 0;
+    }
+}
+
+@media only screen and (max-width: 740px) {
+    .container .left-side {
+        width: 100%;
+        height: auto;
+        padding: 0;
+    }
+}
+
+@media only screen and (max-width: 740px) {
+    .container .right-side {
+        width: 100%;
+        padding: 2rem 1rem;
+    }
+}
+
+@media only screen and (max-width: 740px) {
+    .container .right-side h3 {
+        padding: 2rem 0 1.5rem 0;
+    }
+}
+
+@media only screen and (max-width: 740px) {
+    #start {
+        background-color: rgb(151, 148, 148);
+        color: white;
+    }
 }
 
 /* About */
@@ -196,6 +269,55 @@ header a {
 .text-about a {
     line-height: 2.5rem;
     color: rgb(121, 153, 214);
+}
+
+@media only screen and (max-width: 740px) {
+    .left-about {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 740px) {
+    .container-about {
+        padding: 0;
+    }
+}
+
+@media only screen and (max-width: 740px) {
+    .right-side-about {
+        width: 100%;
+        padding: 1rem 1rem 2rem 1rem;
+    }
+}
+
+@media only screen and (max-width: 740px) {
+    .right-side-about .info-blocks {
+        flex-direction: column;
+        background-color: whitesmoke;
+        border: none;
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media only screen and (max-width: 740px) {
+    .img-about {
+        width: 100%;
+        height: auto;
+        padding: 0;
+    }
+}
+
+@media only screen and (max-width: 740px) {
+    .right-side-about .info-blocks .img-about img {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 740px) {
+    .right-side-about .info-blocks .img-about .mobile-img img {
+        width: 100%;
+    }
 }
 
 /* Learning */
@@ -282,3 +404,7 @@ footer p {
 footer a {
     margin-left: .7rem;
 }
+
+/* Mobile */
+ 
+
