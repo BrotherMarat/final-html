@@ -272,7 +272,7 @@ header a {
 }
 
 @media only screen and (max-width: 740px) {
-    .left-about {
+    .need-to-fix .container-about .left-about {
         display: none;
     }
 }
@@ -286,7 +286,7 @@ header a {
 @media only screen and (max-width: 740px) {
     .right-side-about {
         width: 100%;
-        padding: 1rem 1rem 2rem 1rem;
+        padding: 1rem 1rem 0 1rem;
     }
 }
 
@@ -309,14 +309,39 @@ header a {
 }
 
 @media only screen and (max-width: 740px) {
-    .right-side-about .info-blocks .img-about img {
+    .right-side-about .info-blocks .img-about {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 740px) {
+    .test {
         display: none;
     }
 }
 
 @media only screen and (max-width: 740px) {
-    .right-side-about .info-blocks .img-about .mobile-img img {
+    .test {
         width: 100%;
+        height: auto;
+    }
+}
+
+@media only screen and (max-width: 740px) {
+    .info-blocks {
+        align-items: flex-start;
+    }
+}
+
+@media only screen and (max-width: 740px) {
+    .info-blocks a {
+        padding-left: 1rem;
+    }
+}
+
+@media only screen and (max-width: 740px) {
+    .text-about {
+        padding-bottom: 2rem;
     }
 }
 
@@ -364,6 +389,49 @@ header a {
     padding-bottom: .75rem;
 }
 
+@media only screen and (max-width: 740px) {
+    .box img, .box p {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 740px) {
+    .boxes {
+        display: block;
+        background-color: whitesmoke;
+    }
+}
+
+@media only screen and (max-width: 740px) {
+    .learning {
+        background-color: whitesmoke;
+        padding: 2rem 1rem;
+    }
+}
+
+@media only screen and (max-width: 740px) {
+    .box {
+        background-color: rgb(214, 212, 212);
+        padding: 1rem 1rem 1.5rem 1rem;
+        margin: 0;
+        max-width: 100%;
+        margin-bottom: .5rem;
+    }
+}
+
+@media only screen and (max-width: 740px) {
+    .learning h3 {
+        padding: 0;
+    }
+}
+
+@media only screen and (max-width: 740px) {
+    .learning h2 {
+        padding: 0;
+        padding-bottom: 1rem;
+    }
+}
+
 /* Thesis exhibit */
 
 .thesis h2 {
@@ -383,6 +451,31 @@ header a {
 
 .thesis .leckture {
     margin-top: 1rem;
+}
+
+@media only screen and (max-width: 740px) {
+    .thesis .container-about .right-side-about {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 740px) {
+    .container-about {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 740px) {
+    .left-side  {
+        width: 100%;
+        padding: 0;
+    }
+}
+
+@media only screen and (max-width: 740px) {
+    .left-side p, .left-side h3 {
+        display: none;
+    }
 }
 
 /* Footer */
@@ -405,6 +498,12 @@ footer a {
     margin-left: .7rem;
 }
 
-/* Mobile */
+@media only screen and (max-width: 740px) {
+    footer a {
+        display: none;
+    }
+}
+
+
  
 
